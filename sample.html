@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sample.css">
+    <title>My portfolio</title>
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <img src="image/avatar.jpg" width="150px" height="150px" alt="My avatar">
+            <p>Gia Huy Dao Tang | Software Developer</p>
+            <nav> <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        <section id="hero">
+            <!-- <h2>Hero section</h2> -->
+            <p>Hello! I am Gia Huy, a student and aspiring software developer. I enjoy learning programming, building
+                web applications, and turning ideas into useful digital products.</p>
+        </section>
+        <section id="about">
+            <h2>About me</h2>
+            <p>I am passionate about technology and software development. My main interests are Python, backend
+                development, and web development, and I am continuously improving my programming skills through personal
+                projects.</p>
+            <p>I want to take part in HTVH because I want to challenge myself, learn from experienced mentors and
+                talented students, and have the opportunity to develop meaningful technology projects.</p>
+            <p>I hope to gain practical experience, improve my teamwork and problem-solving skills, receive valuable
+                feedback, and become a more confident developer.</p>
+        </section>
+        <section id="skills">
+            <h2>My Skills</h2>
+            <h3>Technologies </h3>
+            <p>I have strong foundations in Python and C++.</p>
+            <p>I have learned the fundamentals of HTML, CSS, and JavaScript.</p>
+            <h3>Tools</h3>
+            <p>I can use Git and GitHub for version control and collaboration. </p>
+            <p>I use AI tools such as ChatGPT and Claude effectively to support learning, debugging, and coding. </p>
+            <h3></h3>
+        </section>
+        <section id="projects">
+            <h2>My projects</h2>
+            <div class="project-container">
+                <article class="projects">
+                    <h4>Personal Portfolio Website</h4>
+                    <p>A personal portfolio website created to introduce myself, showcase my skills, and present my
+                        projects.</p>
+                    <button class="project-button" id="open-project1">View details</button>
+
+                </article>
+                <article class="projects">
+                    <h4>Quiz Web Application</h4>
+                    <p>A simple interactive web application designed to help users practice answering questions and
+                        track their progress.</p>
+                    <button class="project-button" id="open-project2">View details</button>
+
+                </article>
+            </div>
+        </section>
+
+        <footer id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="daotanggiahuy2009@gmail.com">daotanggiahuy2009@gmail.com</a></p>
+            <p>Facebook: <a href="https://www.facebook.com/huyghettoan">https://www.facebook.com/huyghettoan</a></p>
+        </footer>
+    </main>
+
+    <div class="modal" id="project-modal1">
+        <div class="modal-content">
+
+            <button class="close-button" id="close-modal1">
+                ×
+            </button>
+
+            <h2>Personal Portfolio Website</h2>
+
+            <p>
+                This is my first personal web project. I created it to
+                introduce myself, demonstrate my skills, and showcase
+                the projects I build.
+            </p>
+
+            <p>I built this website as part of my preparation for applying to HTVH.</p>
+
+
+            <h3>Technologies Used</h3>
+
+            <p>HTML, CSS, JavaScript</p>
+
+        </div>
+    </div>
+
+    <div class="modal" id="project-modal2">
+        <div class="modal-content">
+
+            <button class="close-button" id="close-modal2">
+                ×
+            </button>
+
+            <h2>Quiz Web Application</h2>
+
+            <p>
+                A simple interactive web application designed to help users practice answering questions and
+                track their progress.
+            </p>
+
+            <p>I built this website as part of my preparation for applying to HTVH.</p>
+
+            <p>Users can select questions, submit answers, and receive feedback. </p>
+
+            <h3>Technologies Used</h3>
+
+            <p>Python, Django, HTML, CSS, and JavaScript </p>
+
+        </div>
+    </div>
+
+    <script src="sample.js"></script>
+
+</body>
+
+</html>
