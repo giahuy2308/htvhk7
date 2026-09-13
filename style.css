@@ -1,45 +1,153 @@
-body{
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
 }
 
-aside {
-    width: 10vw;
-    height:auto;
-    border: 1px solid;
-    padding: 15px 0;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 
-main{
-    width: 60vw;
+main {
+  width: 80%;
+  max-width: 1200px;
+  margin: 30px auto;
+  position: static;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-section, header, footer {
-    width: 100%;
-    padding: 20px 30px;
-    /* margin: 0px 10px; */
-    border-bottom: 1px solid;
-    border-top: 1px solid;
+section,
+header,
+footer {
+  width: 100%;
+  padding: 20px 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+header {
+  text-align: center;
+  padding: 40px 30px;
 }
 
 img {
-    width:100px;
-    height:100px
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid whitesmoke;
 }
 
-.project-container{
-    width: 100%;
-    
-    display: flex;
-    flex-wrap: wrap;
+nav {
+  text-align: right;
+  margin-top: 20px;
+}
 
-    justify-content:  space-evenly;
-    }
+nav a,
+nav {
+  word-spacing: 12px;
+}
+
+#theme-toggle{
+  display: inline;
+}
+
+#hero {
+  text-align: center;
+  font-size: 18px;
+}
+
+.project-container {
+  width: 100%;
+}
 
 .projects {
-    width: 250px;
-    height: auto;
+  width: 350px;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
 
-    border: 1px solid;
-    padding: 3px 10px;
+
+/* Background behind the popup */
+.modal {
+    display: none;
+
+    position: fixed;
+    inset: 0;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    justify-content: center;
+    align-items: center;
+}
+
+/* Popup box */
+.modal-content {
+    position: relative;
+
+    width: 80%;
+    max-width: 500px;
+
+    padding: 30px;
+
+    background-color: white;
+    border-radius: 10px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Close button */
+.close-button {
+    position: absolute;
+
+    top: 10px;
+    right: 15px;
+
+    width: 40px;
+    height: 40px;
+
+    border: none;
+    background: none;
+
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    position: absolute;
+
+    top: 10px;
+    right: 15px;
+
+    border: none;
+    border-radius: 30px;
+    background: none;
+
+    font-size: 32px;
+    cursor: pointer;
+
+    background-color: rgba(200, 200, 200, 0.2);
+  }
+
+/* View Details button */
+.project-button {
+    padding: 10px 15px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #333;
+    color: white;
+
+    cursor: pointer;
+}
+
+.project-button:hover {
+    background-color: #555;
+}
+
+/* Show modal */
+.modal.show {
+    display: flex;
 }
