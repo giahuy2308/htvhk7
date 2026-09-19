@@ -43,6 +43,7 @@ Bạn cần:
 3. Không cần thay đổi hoàn toàn cấu trúc dự án nếu không cần thiết.
 4. Tạo một repository mới (public) và push code lên trên repository này
 5. Gửi link cho câu lạc bộ qua email huyenthoaivuahungk6@gmail.com với nội dung
+
 ``` [Tên ] nộp nhiệm vụ ban kĩ thuật + [link repository] ```
 
 ---
@@ -79,7 +80,7 @@ Ví dụ: Khi bấm nút chuyển từ chế độ sang **tối**:
 - Màu nền chuyển từ trắng sang đen.
 - Chữ chuyển từ đen sang trắng.
 
-4. *** Tính năng mở rộng cho project ***
+4. ***Tính năng mở rộng cho project***
 
 Hãy tạo một **Popup** để hiển thị nội dung chi tiết của project. Đồng thời chỉnh sửa lại nội dung trong project như sau:
 
