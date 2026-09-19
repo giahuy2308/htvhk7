@@ -14,7 +14,7 @@ Mục tiêu của bài test không chỉ là đánh giá khả năng lập trìn
 
 ---
 
-# 2. Công nghệ sử dụng
+## 2. Công nghệ sử dụng
 
 Trong bài test này, yêu cầu **sử dụng các công nghệ sau**:
 
@@ -30,7 +30,7 @@ Khuyến khích sử dụng:
 
 ---
 
-# 3. Template ban đầu
+## 3. Template ban đầu
 
 Template mẫu được cung cấp tại repository GitHub:
 
@@ -43,11 +43,11 @@ Bạn cần:
 3. Không cần thay đổi hoàn toàn cấu trúc dự án nếu không cần thiết.
 4. Tạo một repository mới (public) và push code lên trên repository này
 5. Gửi link cho câu lạc bộ qua email huyenthoaivuahungk6@gmail.com với nội dung
-   > [Tên ] nộp nhiệm vụ ban kĩ thuật + [link repository]
+``` [Tên ] nộp nhiệm vụ ban kĩ thuật + [link repository] ```
 
 ---
 
-# 4. Nhiệm vụ cần hoàn thành
+## 4. Nhiệm vụ cần hoàn thành
 
 **Hoàn thiện Personal Portfolio Website**
 
@@ -79,7 +79,7 @@ Ví dụ: Khi bấm nút chuyển từ chế độ sang **tối**:
 - Màu nền chuyển từ trắng sang đen.
 - Chữ chuyển từ đen sang trắng.
 
-  4.**_ Tính năng mở rộng cho project_**
+4. *** Tính năng mở rộng cho project ***
 
 Hãy tạo một **Popup** để hiển thị nội dung chi tiết của project. Đồng thời chỉnh sửa lại nội dung trong project như sau:
 
@@ -92,7 +92,7 @@ Khi bấm nút "Xem chi tiết", một **Popup** sẽ xuất hiện và hiển t
 > [!NOTE]
 > Bạn được khuyến khích sáng tạo và cải thiện giao diện theo phong cách riêng.
 
-# 5. Yêu cầu về Code
+## 5. Yêu cầu về Code
 
 Code cần đảm bảo:
 
@@ -119,27 +119,27 @@ Ví dụ:
 
 ---
 
-# 6. Tài liệu
+## 6. Tài liệu
 
-## HTML
+### HTML
 
 - HTML Tags
 - HTML Semantic Elements
 - HTML Attributes (id, class, ...)
   > [Tham khảo](https://www.w3schools.com/html/default.asp)
 
-## CSS
+### CSS
 
 - CSS Specificity
 - Flexbox
 - CSS pseudo
 
-## JavaScript
+### JavaScript
 
 - Js DOM
 - JS EventListener
 
-## Git và GitHub
+### Git và GitHub
 
 - GitHub Docs
 - Learn Git Branching
