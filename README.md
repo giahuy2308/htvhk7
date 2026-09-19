@@ -58,22 +58,26 @@ Trong ```style.css```, chỉnh sửa để làm đẹp và cá nhân hóa giao d
 Ngoài ra, cần thực hiện thêm 1 số nhiệm vụ sau:
 1. Trong phần **header**, hãy code lại cho các mục trong thẻ ```nav``: 
 * Khi click vào [About ] sẽ điều hướng người dùng đến phần **About me** và tương tự với các mục còn lại
-* (Gợi ý) Tham khảo nút "view" trong phần project 
 
 2. Trong phần **My projects** 
-* Thêm 1 project (sử dụng "article" tag) tương tự với project có sẵn gồm các nội dung 
-> Tên
-> Giới thiệu
-> Công dụng
-> Công nghệ sử dụng
+Thêm 1 project (sử dụng "article" tag) tương tự với project có sẵn gồm các nội dung 
+* Tên
+* Giới thiệu
+* Công dụng
+* Công nghệ sử dụng
 
-***3. Tính năng mở rộng cho project***
+3. Tạo thêm 1 nút bấm cho phép chuyển đổi chế độ **sáng** sang **tối** và ngược lại
+Ví dụ: Khi bấm nút chuyển từ chế độ sang **tối**
+> Màu nền chuyển từ trắng sang đen
+> Chữ chuyển từ đen sang trắng
+
+***4. Tính năng mở rộng cho project***
 Tạo một **Popup** để hiển thị nội dung chi tiết của project
-* Chỉnh sửa lại nội dung trong project
-> Tên project
-> Giới thiệu ngắn gọn
-> Nút "Xem chi tiết"
-* Khi bấm nút "Xem chi tiết", một **Popup** sẽ xuất hiện và hiển thị thông tin đầy đủ (nội dung phần 2) của project  
+Chỉnh sửa lại nội dung trong project
+* Tên project
+* Giới thiệu ngắn gọn
+* Nút "Xem chi tiết"
+> Khi bấm nút "Xem chi tiết", một **Popup** sẽ xuất hiện và hiển thị thông tin đầy đủ (nội dung phần 2) của project  
 
 
 
@@ -113,7 +117,7 @@ Ví dụ:
 
 ---
 
-# 6. Tài liệu tham khảo
+# 6. Tài liệu 
 
 ## HTML
 
