@@ -50,7 +50,7 @@ Bạn cần:
 
 ## 4. Nhiệm vụ cần hoàn thành
 
-1. **Hoàn thiện nội dung Personal Portfolio Website**
+### 4.1 **Hoàn thiện nội dung Personal Portfolio Website**
 
 Trong `index.html`:
 
@@ -67,7 +67,7 @@ Website cần thể hiện được:
 -	Các nội dung cá nhân khác nếu bạn muốn bổ sung
 
 
-2. Hoàn thiện navigation bar (Thanh điều hướng)
+### 4.2 Hoàn thiện navigation bar (Thanh điều hướng)
 
 Trong phần **header**, hãy code lại cho các mục trong thẻ `nav`:
 
@@ -78,7 +78,7 @@ Ví dụ:
 - Khi click vào [ About ] sẽ điều hướng người dùng đến phần **About me** 
 - Khi click vào [ Projects ] sẽ điều hướng người dùng đến phần **My projects**
 
-3. Hoàn thiện phần Projects
+### 4.3 Hoàn thiện phần Projects
 
 Trong phần **My projects**
 
@@ -91,7 +91,7 @@ Thêm ít nhất 1 project (sử dụng "article" tag) tương tự với projec
 
 Bạn có thể thêm hình ảnh, link GitHub, demo hoặc các thông tin khác nếu muốn.
 
-4. Thêm Light/Dark Mode
+### 4.4 Thêm Light/Dark Mode
 
 Tạo thêm 1 nút bấm cho phép chuyển đổi chế độ **sáng** sang **tối** và ngược lại
 
@@ -106,7 +106,7 @@ Khi chuyển chế độ, giao diện cần thay đổi phù hợp, đặc biệ
 - Màu chữ
 - Các thành phần của giao diện phải vẫn dễ đọc ở cả hai chế độ
 
-5. Thêm Project Details Popup (optional / các bạn có thể bỏ qua nếu không làm được)
+### 4.5 Thêm Project Details Popup (optional / các bạn có thể bỏ qua nếu không làm được)
 
 Hãy tạo một **Popup** để hiển thị nội dung chi tiết của project. Đồng thời chỉnh sửa lại nội dung trong project như sau:
 
