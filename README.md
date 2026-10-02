@@ -30,7 +30,7 @@ Khuyến khích sử dụng:
 
 ---
 
-## 3. Template ban đầu
+## 3. Template ban đầu và Nộp bài
 
 Template mẫu được cung cấp tại repository GitHub:
 
@@ -50,7 +50,7 @@ Bạn cần:
 
 ## 4. Nhiệm vụ cần hoàn thành
 
-**Hoàn thiện Personal Portfolio Website**
+1. **Hoàn thiện nội dung Personal Portfolio Website**
 
 Trong `index.html`:
 
@@ -58,29 +58,55 @@ Thay thế các nội dung trong "[ ]" thành thông tin cá nhân của bản t
 
 Trong `style.css`, chỉnh sửa để làm đẹp và cá nhân hóa giao diện
 
-Ngoài ra, cần thực hiện thêm 1 số nhiệm vụ sau:
+Website cần thể hiện được:
 
-1. Trong phần **header**, hãy code lại cho các mục trong thẻ `nav`:
+-	Thông tin giới thiệu bản thân 
+-	Kỹ năng
+-	Các dự án đã thực hiện 
+-	Thông tin liên hệ
+-	Các nội dung cá nhân khác nếu bạn muốn bổ sung
 
-- Khi click vào [ About ] sẽ điều hướng người dùng đến phần **About me** và tương tự với các mục còn lại
 
-2. Trong phần **My projects**
+2. Hoàn thiện navigation bar (Thanh điều hướng)
 
-Thêm 1 project (sử dụng "article" tag) tương tự với project có sẵn gồm các nội dung
+Trong phần **header**, hãy code lại cho các mục trong thẻ `nav`:
+
+Khi người dùng nhấn vào một mục, trang phải chuyển đến đúng section tương ứng.
+
+Ví dụ:
+
+- Khi click vào [ About ] sẽ điều hướng người dùng đến phần **About me** 
+- Khi click vào [ Projects ] sẽ điều hướng người dùng đến phần **My projects**
+
+3. Hoàn thiện phần Projects
+
+Trong phần **My projects**
+
+Thêm ít nhất 1 project (sử dụng "article" tag) tương tự với project có sẵn gồm các nội dung
 
 - Tên
-- Giới thiệu
+- Giới thiệu ngắn gọn
 - Công dụng
 - Công nghệ sử dụng
 
-3. Tạo thêm 1 nút bấm cho phép chuyển đổi chế độ **sáng** sang **tối** và ngược lại
+Bạn có thể thêm hình ảnh, link GitHub, demo hoặc các thông tin khác nếu muốn.
+
+4. Thêm Light/Dark Mode
+
+Tạo thêm 1 nút bấm cho phép chuyển đổi chế độ **sáng** sang **tối** và ngược lại
 
 Ví dụ: Khi bấm nút chuyển từ chế độ sang **tối**:
 
 - Màu nền chuyển từ trắng sang đen.
 - Chữ chuyển từ đen sang trắng.
 
-4. ***Tính năng mở rộng cho project***
+Khi chuyển chế độ, giao diện cần thay đổi phù hợp, đặc biệt là:
+
+- Màu nền
+- Màu chữ
+- Các thành phần của giao diện phải vẫn dễ đọc ở cả hai chế độ
+
+5. Thêm Project Details Popup (optional / các bạn có thể bỏ qua nếu không làm được)
 
 Hãy tạo một **Popup** để hiển thị nội dung chi tiết của project. Đồng thời chỉnh sửa lại nội dung trong project như sau:
 
@@ -88,7 +114,17 @@ Hãy tạo một **Popup** để hiển thị nội dung chi tiết của projec
 - Giới thiệu ngắn gọn
 - Nút "Xem chi tiết"
 
-Khi bấm nút "Xem chi tiết", một **Popup** sẽ xuất hiện và hiển thị thông tin đầy đủ (nội dung phần 2) của project
+Khi bấm nút "Xem chi tiết", một **Popup** sẽ xuất hiện và hiển thị thông tin đầy đủ của project
+
+-	Tên project
+-	Mô tả
+-	Mục đích 
+-	Công nghệ sử dụng 
+-	Các chức năng chính 
+-	Link GitHub hoặc demo nếu có
+
+Popup cần có cách để người dùng đóng lại. 
+
 
 > [!NOTE]
 > Bạn được khuyến khích sáng tạo và cải thiện giao diện theo phong cách riêng.
