@@ -19,6 +19,7 @@ main {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* Thiết lập giao diện cho các tag (thẻ) section, header, footer*/
 section,
 header,
 footer {
@@ -49,6 +50,8 @@ nav {
   word-spacing: 12px;
 }
 
+
+/* Thiết lập giao diện cho thẻ có id là theme-toggle */
 #theme-toggle{
   display: inline;
 }
@@ -58,6 +61,7 @@ nav {
   font-size: 18px;
 }
 
+/* Thiết lập giao diện cho các thẻ có class là project-container */
 .project-container {
   width: 100%;
 }
@@ -69,7 +73,7 @@ nav {
 }
 
 
-/* Background behind the popup */
+/* Background sau popup */
 .modal {
     display: none;
 
@@ -82,7 +86,7 @@ nav {
     align-items: center;
 }
 
-/* Popup box */
+/* Popup */
 .modal-content {
     position: relative;
 
@@ -97,7 +101,7 @@ nav {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
-/* Close button */
+/* Nút đóng popup */
 .close-button {
     position: absolute;
 
@@ -130,7 +134,7 @@ nav {
     background-color: rgba(200, 200, 200, 0.2);
   }
 
-/* View Details button */
+/* Nút xem chi tiết */
 .project-button {
     padding: 10px 15px;
 
@@ -147,7 +151,6 @@ nav {
     background-color: #555;
 }
 
-/* Show modal */
 .modal.show {
     display: flex;
 }
